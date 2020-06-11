@@ -20,11 +20,13 @@ CodeTest Assignment for Hiring Interview
 
 ## Design Assumptions:
 - Requirement is to implement **at least** 3 of the operations below.  I have opted to implement all 4.
-- Neither suits nor values were specified in the problem statement. Nor was there a requirement to allow for dynamic input of the suits or values.  Following the examples in the problem statement, I will create an "Uno-like" deck with the four suits of red, green, yellow, and blue and 10 values ranging from 0 to 9.
+- Neither suits nor rank values were explicitly specified in the problem statement. Using the examples provided in the requirements and the need to score based on red, yellow, and green suits, I will assume there are only the 3 color suits and that the rank values will range from 0 to 9.  This will result in a full deck of 30 cards.
+- The requirements do not specify if the winner's score is based on the best card they drew or the sum of the three cards.  I am going to assume it is the latter.
+- The scoring equation provided allows for the potential for ties.  I am going to allow for this case as well rather than add new rules for breaking ties.
 - The requirements say nothing about whether this game demo should be interactive or not.  I will include only minimal user input in my implemtation(s).  Most of the "action" will be driven by front end "robots" that will play the game.  This includes the "decision" about suit ranking (sort order) and the drawing of cards during game play.
 
 ## Language of Choice:
-- I understand that Python is a desired language by Essex Managmement. While I recognize this preference, I contend that programming is an art that uses various languages as its medium.  
+- I understand that Python is a desired language by Essex Managmement. While I recognize this preference, I fully believe that programming is an art that uses various languages as its medium and is not tied to any particular language.
 - I fully admit that I have only rudimentary Python experience, but have little to no doubt that I can pick Python up as quickly as I have picked up other languages.
 - To this end, I am submitting solutions in multiple languages.  I hope to demonstrate along the way that I understand how to use the unique capabilities of each language and not just transliterate between them.
 - I hope to provide solutions in the following:
