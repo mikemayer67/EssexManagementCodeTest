@@ -40,4 +40,4 @@ CodeTest Assignment for Hiring Interview
   - Logging of function I/O followed by subsequent analysis to verify correctness of result. This may also include logging of intermediate values within the function to validate internal logic.
   - Automated testing (Jenkins) where predefined inputs are fed into an application and outputs are compared to expected results.  Failure to match triggers a need to investigate root cause of discrepancy.
 - Requirement 1 above states that the deck must be shuffled **randomly**. This presents a challenge for predefining expected results.  (*I could seed the random number generator, but this would still require a base run to determine the expected results.  This approach undermines any validity of the test.*)  I will, therefore, implement testing of the game as a whole through the logging/analysis approach.
-- A unit test suite driver will be provided for testing individual requirements
+- A unit test driver will be provided for testing individual requirements
